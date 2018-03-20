@@ -1,0 +1,52 @@
+body {
+	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.inputTask {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5em;
+	width: 60%;
+	font-size: 1.5em;
+	padding: 0.5em;
+}
+
+.todo, .done {
+	overflow: auto;
+	display: inline-block;
+	width: 47.5%;
+	vertical-align: top;
+	height: 20em;
+	background-color: #F5F5F5;
+	margin: 4% 1%;
+
+}
+
+.todo h3, .done h3 {
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.todoLi {
+	font-size: 1.5em;
+	color: #517A9C
+
+}
+
+.doneLi {
+	font-size: 1.5em;
+	color: #517A9C;
+	
+}
+
+.clear-all {
+	float: left;
+
+}
+
+.clear-done {
+	float: right;
+}
